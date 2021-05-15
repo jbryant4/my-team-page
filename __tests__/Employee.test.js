@@ -10,26 +10,28 @@ test('creates an employee object', () => {
 });
 
 test('get employee name',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+    const employee = new Employee('joe', 95201, 'email@google.com')
 
     expect(employee.getName()).toEqual(expect.stringContaining(employee.name.toString()));
 });
 
 test('get employee Id',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+    const employee = new Employee('joe', 95201, 'email@google.com')
 
-    expect(employee.getId()).toEqual(expect.stringContaining(employee.id.toString()));
+    expect(employee.getId()).toEqual(employee.id);
 });
 
 test('get employee Email',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+    const employee = new Employee('joe', 95201, 'email@google.com')
 
     expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
 });
 
 
 test('get employee Role',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+    const employee = new Employee('joe', 95201, 'email@google.com')
 
     expect(employee.getRole()).toBe('Employee');
 });
+
+module.exports = Employee;
