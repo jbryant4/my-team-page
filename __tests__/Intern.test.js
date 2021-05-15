@@ -1,37 +1,44 @@
 const Intern = require('../lib/Intern');
 
-test('creates an employee object', () => {
-    const employee = new Employee('joe', 95201, 'email@google.com')
+test('creates an intern object', () => {
+    const intern = new Intern('joe', 95201, 'email@google.com','school')
     
-    expect(typeof employee.name).toBe('string')
-    expect(typeof employee.id).toBe('number');
-    expect(typeof employee.email).toBe('string');
+    expect(typeof intern.name).toBe('string')
+    expect(typeof intern.id).toBe('number');
+    expect(typeof intern.email).toBe('string');
+    expect(typeof intern.school).toBe('string')
+
     
 });
 
-test('get employee name',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+test('get intern name',() => {
+    const intern = new Intern('joe', 95201, 'email@google.com','school')
 
-    expect(employee.getName()).toEqual(expect.stringContaining(employee.name.toString()));
+    expect(intern.getName()).toEqual(expect.stringContaining(intern.name.toString()));
 });
 
-test('get employee Id',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+test('get intern Id',() => {
+    const intern = new Intern('joe', 95201, 'email@google.com','school')
 
-    expect(employee.getId()).toEqual(expect.stringContaining(employee.id.toString()));
+    expect(intern.getId()).toEqual(intern.id);
 });
 
-test('get employee Email',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+test('get intern Email',() => {
+    const intern = new Intern('joe', 95201, 'email@google.com','school')
 
-    expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
+    expect(intern.getEmail()).toEqual(expect.stringContaining(intern.email.toString()));
 });
 
+test('get intern school',() => {
+    const intern = new Intern('joe', 95201, 'email@google.com','school')
 
-test('get employee Role',() => {
-    const employee = new Employee('joe', '95201', 'email@google.com')
+    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
+});
 
-    expect(employee.getRole()).toBe('Employee');
+test('get intern Role',() => {
+    const intern = new Intern('joe', '95201', 'email@google.com','school')
+
+    expect(intern.getRole()).toBe('Intern');
 });
 
 module.exports = Intern;
