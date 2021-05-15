@@ -4,33 +4,20 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 
+// prompt user with intro question team name and team color 
+// that data will be save for page style 
+
+//prompt user for manager questions 
+// make manager card 
+
+//set up loop for Engineer and Intern questions 
+//make approprite cards
 
 
+// back tick html page with all scrpits and links for style attached 
+//back tick css page 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//write those files out 
 
 
 
