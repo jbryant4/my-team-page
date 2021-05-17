@@ -1,11 +1,12 @@
 const javascript = {
 
     generateJava: function (data) {
+        const team = JSON.parse(data);
+
         return ` 
-        ${data[0].name}
-        ${data[0].id}
-        ${data[0].email}
-        ${data[0].officeNumber}
+        ${data}
+
+        ${team[1].memberType}
         
 
         `
@@ -13,3 +14,13 @@ const javascript = {
 }
 
 module.exports = javascript;
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
