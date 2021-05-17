@@ -124,9 +124,9 @@ function getManager() {
 //! Choose to add Member or Build page
 function buildTeam() {
     console.log(`
-========
-add team
-========
+==========
+add member
+==========
 `)
 
     inquirer
