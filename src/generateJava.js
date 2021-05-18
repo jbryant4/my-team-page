@@ -9,7 +9,7 @@ console.log(team)
 for (i = 0; i < team.length; i++) {
 
     //creates elements
-    const cardDiv = $('<div>').addClass('card col-sm-12 col-md-3').attr('style', 'width: 18rem');
+    const cardDiv = $('<div>').addClass('card col-sm-12 col-md-4 col-lg-3').attr('style', 'width: 18rem');
     const cardBody = $('<div>').addClass('card-body');
     const cardName = $('<h5>').addClass('card-title').text(team[i].name);
     const cardRole = $('<h6>').addClass('card-subtitle mb-2 text-muted').text(team[i].memberType);

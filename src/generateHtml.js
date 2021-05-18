@@ -18,14 +18,14 @@ const html = {
         <h2> ${data} Team Page</h2>
     </header>
     <div class='container'>
-        <div class="row section-title " id="manager">
-            <h3 class="col-12">Team Manager</h3>
+        <div class="row" id="manager">
+            <h3 class="col-12 section-title">Team Manager</h3>
         </div>
         <div class="row" id="engineer">
-            <h3 class="col-12">Team Engineer(s)</h3>
+            <h3 class="col-12 section-title">Team Engineer(s)</h3>
         </div>
         <div class="row" id="intern">
-            <h3 class="col-12">Team Intern(s)</h3>
+            <h3 class="col-12 section-title">Team Intern(s)</h3>
         </div>
     </div>
 
