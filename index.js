@@ -18,31 +18,79 @@ const questions = [{
     type: 'text',
     name: 'name',
     message: "What is the employee's name?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 },
 {
     type: 'text',
     name: 'id',
     message: "What is the employee's id?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 },
 {
     type: 'text',
     name: 'email',
     message: "What is the employee's email?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 },
 {
     type: 'text',
     name: 'officeNumber',
     message: "What is the Manager's office number?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 },
 {
     type: 'text',
     name: 'githubId',
     message: "What is the Engineer's Github Id?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 },
 {
     type: 'text',
     name: 'school',
     message: "What school did the Intern attend?",
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter user name!');
+            return false;
+        }
+    },
 }];
 // prompt user with intro question team name and team color 
 // that data will be save for page style 
