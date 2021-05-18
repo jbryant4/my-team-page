@@ -89,9 +89,9 @@ function getPageInfo() {
             writeHtml(getHtml);
             writeCss(getCss);
 
-        });
 
-    getManager()
+            getManager()
+        }); 
 }
 
 //! Get manager Info
@@ -202,6 +202,6 @@ function writeScript(data) { fs.writeFile('./dist/script.js', data, err => { if 
 
 
 
-getManager();
+getPageInfo()
 
 
