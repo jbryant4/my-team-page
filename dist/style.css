@@ -4,18 +4,18 @@ h2,h3 {
 } 
 
 header {
-    background-color: Samlmon;
+    background-color: Orange;
     contain: content;
 }
 
 .section-title {
-    color: lightSamlmon;
+    color: lightOrange;
     background-color: grey;
     margin: 10px auto;
 }
 
 .card {
-    box-shadow: -2px -5px Samlmon;
+    box-shadow: -2px -5px Orange;
     margin: auto;
 }
         
