@@ -126,7 +126,7 @@ function getPageInfo() {
             type: 'list',
             name: 'teamColor',
             message: 'What is your team color?',
-            choices: ['Red', 'Blue', 'Green', 'Orange', 'Grey', 'Samlmon'],
+            choices: ['Red', 'Blue', 'Green', 'Orange', 'Grey', 'Salmon'],
         }]).then(answers => {
 
             //generate html and css 

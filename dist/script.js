@@ -1,5 +1,5 @@
 
-const team = JSON.parse(JSON.stringify([{"name":"Joe","id":"78","email":"email@gmail.com","officeNumber":"4","memberType":"manager"},{"name":"Joe","id":"asd","email":"joebryant614@gmail.com","githubId":"jbryant4","memberType":"engineer"},{"name":"asd","id":"asd","email":"asd","school":"asd","memberType":"intern"},{"name":"asd","id":"asd","email":"asd","school":"asd","memberType":"intern"}]));
+const team = JSON.parse(JSON.stringify([{"name":"David","id":"1","email":"email@gmail.com","officeNumber":"1","memberType":"manager"},{"name":"Joe","id":"95201","email":"joebryant614@gmail.com","githubId":"jbryant4","memberType":"engineer"},{"name":"Bod","id":"98","email":"asd","githubId":"asd","memberType":"engineer"},{"name":"Sam ","id":"15","email":"email@gmail.com","school":"mom school","memberType":"intern"},{"name":"Chaloote","id":"98","email":"email@gmail.com","school":"dads school","memberType":"intern"},{"name":"sldkf","id":"asdlkfjh","email":"asdf","school":"asdf","memberType":"intern"}]));
 
 console.log(team)
 //for loop to build each card

@@ -3,27 +3,20 @@ h2,h3 {
     text-align: center;
 } 
 
-.card-link{
-    width: 100%;
-}    
-
 header {
-    background-color: Blue;
+    background-color: Samlmon;
     contain: content;
 }
 
 .section-title {
-    color: lightBlue;
+    color: lightSamlmon;
     background-color: grey;
     margin: 10px auto;
 }
 
-
 .card {
-    box-shadow: -2px -5px Blue;
-    margin: auto
+    box-shadow: -2px -5px Samlmon;
+    margin: auto;
 }
-
-
         
     
