@@ -1,0 +1,29 @@
+
+h2,h3 {
+    text-align: center;
+} 
+
+.card-link{
+    width: 100%;
+}    
+
+header {
+    background-color: Blue;
+    contain: content;
+}
+
+.section-title {
+    color: lightBlue;
+    background-color: grey;
+    margin: 10px auto;
+}
+
+
+.card {
+    box-shadow: -2px -5px Blue;
+    margin: auto
+}
+
+
+        
+    

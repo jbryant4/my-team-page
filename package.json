@@ -1,0 +1,28 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "Build team page using only node prompts",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbryant4/my-team-page.git"
+  },
+  "author": "Joseph Bryant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbryant4/my-team-page/issues"
+  },
+  "homepage": "https://github.com/jbryant4/my-team-page#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
