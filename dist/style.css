@@ -3,24 +3,27 @@ h2,h3 {
     text-align: center;
 } 
 
-.card {
-    margin: auto;
+.card-link{
+    width: 100%;
 }    
 
 header {
-    background-color: Orange;
+    background-color: Blue;
     contain: content;
 }
 
 .section-title {
-    color: lightOrange;
+    color: lightBlue;
     background-color: grey;
     margin: 10px auto;
 }
 
 
 .card {
-    box-shadow: -2px -5px Orange;
+    box-shadow: -2px -5px Blue;
+    margin: auto
 }
+
+
         
     

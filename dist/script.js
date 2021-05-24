@@ -1,5 +1,5 @@
 
-const team = JSON.parse(JSON.stringify([{"name":"Joe","id":"9","email":"email","officeNumber":"1","memberType":"manager"},{"name":"joebean","id":"90","email":"joebryant614@gmail.com","githubId":"jbryant4","memberType":"engineer"},{"name":"jen","id":"89","email":"jen","school":"asu","memberType":"intern"}]));
+const team = JSON.parse(JSON.stringify([{"name":"Joe","id":"78","email":"email@gmail.com","officeNumber":"4","memberType":"manager"},{"name":"Joe","id":"asd","email":"joebryant614@gmail.com","githubId":"jbryant4","memberType":"engineer"},{"name":"asd","id":"asd","email":"asd","school":"asd","memberType":"intern"},{"name":"asd","id":"asd","email":"asd","school":"asd","memberType":"intern"}]));
 
 console.log(team)
 //for loop to build each card
@@ -19,9 +19,10 @@ for (i = 0; i < team.length; i++) {
     //append all the components 
     cardBody.append(cardName);
     cardBody.append(cardRole);
+    cardBody.append(cardExtra);
     cardBody.append(cardId);
     cardBody.append(cardEmail);
-    cardBody.append(cardExtra);
+    
 
     cardDiv.append(cardBody);
 

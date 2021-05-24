@@ -22,9 +22,10 @@ for (i = 0; i < team.length; i++) {
     //append all the components 
     cardBody.append(cardName);
     cardBody.append(cardRole);
+    cardBody.append(cardExtra);
     cardBody.append(cardId);
     cardBody.append(cardEmail);
-    cardBody.append(cardExtra);
+    
 
     cardDiv.append(cardBody);
 

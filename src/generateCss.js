@@ -6,10 +6,6 @@ h2,h3 {
     text-align: center;
 } 
 
-.card {
-    margin: auto;
-}    
-
 header {
     background-color: ${data};
     contain: content;
@@ -21,9 +17,9 @@ header {
     margin: 10px auto;
 }
 
-
 .card {
     box-shadow: -2px -5px ${data};
+    margin: auto;
 }
         
     `} 
